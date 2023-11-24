@@ -88,6 +88,7 @@ int FileOperation::readContentFromFile(std::string& str_out_content, const std::
         res = str_out_content.size();
     }
     else {
+        std::cout << "Open file " << str_filename << " error" << std::endl;
         res = -1;
     }
 

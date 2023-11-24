@@ -1,7 +1,8 @@
 #include "FileOperation.hpp"
 #include <iostream>
 
-const std::string config_file("../config.json");
+// const std::string config_file("./unittest/unittest.json");
+const std::string config_file("unittest.json");
 int main()
 {
     FileOperation CFileOpeartion;

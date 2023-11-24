@@ -9,7 +9,7 @@ SRC := $(wildcard $(SRC_DIR_TEST)/*.cpp)
 SRC += $(wildcard $(SRC_DIR_THREADPOLL)/*.cpp)
 OBJ := $(patsubst %.cpp,%.o, $(SRC))
 
-TARGET := testJson
+TARGET := testFileSystem
 CC := g++
 CXXFLAG = -std=c++11
 CFLAGS := -I$(INCLUDE_DIR)
